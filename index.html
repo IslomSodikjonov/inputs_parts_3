@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs 3</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="title">Example form</h1>
+
+        <div class="counter">
+            <p class="counts">All: 12</span></p>
+            <p class="counts">Need: 7</p>
+            <p class="counts">Succes: <span class="filled">0</span>/7</p>
+            <p class="counts">Error: <span class="need_to_fill">0</span>/7</p>
+        </div>
+
+        
+        <form name="signup" >
+
+            <div class="formbody">
+
+                <div class="left">
+                    <div class="inputs">
+                        <p class="importantp">Name</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs" type="text" name="name" >
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+                    
+                    <div class="inputs">
+                        <p class="unimportantp">Surname</p>
+                        <input class="uniminputs"  type="text">
+                    </div>
+
+                    <div class="inputs">
+                        <p class="importantp">Email adress</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs" type="email" name="email"> 
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+
+                    <div class="inputs">
+                        <p class="unimportantp">Phone number</p>
+                        <input class="uniminputs"  type="tel" name="phone"> 
+                    </div>
+
+                    <div class="inputs">
+                        <p class="unimportantp">Your Mom's name</p>
+                        <input class="uniminputs"  type="text" name="name">
+                    </div>
+
+                    <div class="inputs">
+                        <p class="unimportantp">Your Pap's name</p>
+                        <input class="uniminputs"  type="text" name="name">
+                    </div>
+                </div>
+
+                
+                <div class="righ">
+                    <div class="inputs">
+                        <p class="importantp">Age</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs" type="number" name="age"> 
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>                        
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+                    
+                    <div class="inputs">
+                        <p class="importantp">About You</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs" type="text" name="aboutyou"> 
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+
+                    <div class="inputs">
+                        <p class="importantp">What is JavaScript?</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs" type="text" name="js"> 
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+
+                    <div class="inputs">
+                        <p class="importantp">What is HTML?</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs"  type="text" name="html">
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+
+                    <div class="inputs">
+                        <p class="importantp">What is CSS?</p>
+                        <div class="wrong">
+                            <input class="required" id="iminputs" type="text" name="css">
+                            <div class="wrongimmg">
+                                <img src="./images/error.png" alt="">
+                            </div>
+                        </div>
+                        <p class="needfill">Need to fill</p>
+                    </div>
+
+                    <div class="inputs">
+                        <p class="unimportantp">Your favourite car</p>
+                        <input class="uniminputs" type="text" name="favcar"> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="btncenter">
+                <button>Save changes</button>
+            </div>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
